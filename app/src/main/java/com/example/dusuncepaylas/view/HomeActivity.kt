@@ -51,7 +51,7 @@ class HomeActivity : AppCompatActivity() {
         getFirebaseData()
         val layoutManager = LinearLayoutManager(this)
         postRecyclerView.layoutManager = layoutManager
-        postAdapter = PostAdapter(postList)
+        postAdapter = PostAdapter(postList,this)
         postRecyclerView.adapter = postAdapter
     }
 
@@ -76,7 +76,7 @@ class HomeActivity : AppCompatActivity() {
                         for (document in documents) {
                             val userName = document.get("userName") as String?
                             val postDescribe = document.get("postDescribe") as String?
-                            val imageUrl = document.get("imageUrl") as String?
+                            val imageUrl = document.get("downloadUrl") as String?
                             var post = Post(userName, postDescribe, imageUrl)
                             postList.add(post)
 

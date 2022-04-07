@@ -22,6 +22,12 @@
             android:layout_margin="10dp"
             android:textSize="20sp"
             android:text="Dogus ipeksac" />
+        <ImageView
+            android:id="@+id/postImage"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"/>
+
         <TextView
             android:id="@+id/postDescribeText"
             android:layout_width="match_parent"
