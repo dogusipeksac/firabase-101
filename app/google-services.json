@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "701943983197",
+    "project_id": "dusuncepaylas-ddfff",
+    "storage_bucket": "dusuncepaylas-ddfff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701943983197:android:cdacba61ec98657d49b1b4",
+        "android_client_info": {
+          "package_name": "com.example.dusuncepaylas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701943983197-lsltgkach3as83psft770su4i6lrq9p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCokhs6bZHQC9S68Lbnp9FdNQCdv7JmTBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701943983197-lsltgkach3as83psft770su4i6lrq9p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
